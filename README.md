@@ -86,5 +86,3 @@ Open in your browser:
 - Nginx reverse proxy with Docker networking
 - Persistent MySQL storage using Docker volumes
 - Automated CI/CD using GitHub Actions
-```
-
