@@ -73,7 +73,7 @@ docker compose up -d --build
 
 ### 3. Access the application
 http://localhost
-
+```
 ## Key Highlights
 
 - Fully containerized full-stack application
