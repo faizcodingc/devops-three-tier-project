@@ -72,9 +72,10 @@ cd devopsci-cd
 ### 2. Start the Application
 docker compose up -d --build
 ```
+### 3. Access the Application
 
-### 3. Access the application
-http://localhost
+Open in your browser:
+`http://localhost`
 ```
 ## Key Highlights
 
