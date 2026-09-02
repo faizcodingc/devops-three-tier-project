@@ -74,4 +74,10 @@ docker compose up -d --build
 ### 3. Access the application
 http://localhost
 
+## Key Highlights
+
+- Fully containerized full-stack application
+- Nginx reverse proxy with Docker networking
+- Persistent MySQL storage using Docker volumes
+- Automated CI/CD using GitHub Actions
 
