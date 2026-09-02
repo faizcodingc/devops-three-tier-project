@@ -37,3 +37,11 @@ devopsci-cd/
 ├── docker-compose.yml
 ├── healthcheck.sh
 └── .gitignore
+
+## How It Works
+
+1. User accesses the application through Nginx.
+2. Nginx serves the React frontend and forwards `/api` requests to the backend.
+3. Node.js/Express processes API requests and communicates with MySQL.
+4. MySQL stores application data in a persistent Docker volume.
+5. Docker Compose manages all services and their networking.
