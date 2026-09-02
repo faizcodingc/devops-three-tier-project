@@ -27,3 +27,13 @@ Nginx Reverse Proxy (:80)
           MySQL (:3306)
               ↓
        Persistent Volume
+
+       ## Project Structure
+       
+devopsci-cd/
+├── frontend/
+├── backend/
+├── nginx/
+├── docker-compose.yml
+├── healthcheck.sh
+└── .gitignore
