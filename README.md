@@ -80,7 +80,6 @@ Open in your browser:
 
 `http://localhost`
 
-```
 ## Key Highlights
 
 - Fully containerized full-stack application
