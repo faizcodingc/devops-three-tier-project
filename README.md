@@ -28,7 +28,7 @@ Nginx Reverse Proxy (:80)
               ↓
        Persistent Volume
 
-       ## Project Structure
+ ## Project Structure
        
 devopsci-cd/
 ├── frontend/
