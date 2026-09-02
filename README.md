@@ -54,9 +54,24 @@ devopsci-cd/
 - Added MySQL healthcheck with `depends_on` to handle database readiness.
 - Used a named Docker volume to persist MySQL data.
 
-  ## CI/CD
+ ## CI/CD
 
 GitHub Actions automates the build and deployment workflow.
 - Builds Docker images
 - Pushes images to Docker Hub
 - Automates the application delivery process
+
+## Run the Project
+
+### 1. Clone the repository
+```bash
+git clone <repository-url>
+cd devopsci-cd
+
+### 2. Start the Application
+docker compose up -d --build
+
+### 3. Access the application
+http://localhost
+
+
