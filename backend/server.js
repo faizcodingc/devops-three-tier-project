@@ -1,10 +1,13 @@
+
 const express = require("express");
-const cors = require("cors");      // <-- Ye line add karo
+const cors = require("cors");      
+const db = require("./db");
 const apiRoutes = require("./routes/api");
 
 const app = express();
 
-app.use(cors());                   // <-- Ye line add karo
+app.use(cors());
+app.use(express.json());
 
 const PORT = 5000;
 
