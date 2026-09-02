@@ -67,9 +67,11 @@ GitHub Actions automates the build and deployment workflow.
 ```bash
 git clone <repository-url>
 cd devopsci-cd
+```
 
 ### 2. Start the Application
 docker compose up -d --build
+```
 
 ### 3. Access the application
 http://localhost
