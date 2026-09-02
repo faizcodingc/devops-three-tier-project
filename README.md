@@ -45,3 +45,11 @@ devopsci-cd/
 3. Node.js/Express processes API requests and communicates with MySQL.
 4. MySQL stores application data in a persistent Docker volume.
 5. Docker Compose manages all services and their networking.
+
+## Docker Implementation
+
+- Containerized frontend, backend, and MySQL services using Docker Compose.
+- Used a multi-stage Docker build for the React frontend.
+- Configured a custom Docker network for service-to-service communication.
+- Added MySQL healthcheck with `depends_on` to handle database readiness.
+- Used a named Docker volume to persist MySQL data.
