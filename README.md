@@ -53,3 +53,10 @@ devopsci-cd/
 - Configured a custom Docker network for service-to-service communication.
 - Added MySQL healthcheck with `depends_on` to handle database readiness.
 - Used a named Docker volume to persist MySQL data.
+
+  ## CI/CD
+
+GitHub Actions automates the build and deployment workflow.
+- Builds Docker images
+- Pushes images to Docker Hub
+- Automates the application delivery process
