@@ -15,3 +15,15 @@ MySQL database, and Nginx reverse proxy, all orchestrated using Docker Compose.
 - Docker & Docker Compose
 - GitHub Actions
 - Docker Hub
+
+## Architecture
+
+Browser
+   ↓
+Nginx Reverse Proxy (:80)
+   ├──→ React Frontend (:80)
+   └──→ Node.js Backend (:5000)
+              ↓
+          MySQL (:3306)
+              ↓
+       Persistent Volume
